@@ -18,7 +18,7 @@ function App() {
       }
     }
     fetchStudentList();
-  },[]);
+  },[studentList]);
 
   return (
       <GetList studentList={studentList}/>
